@@ -1,7 +1,6 @@
 import './App.css';
-import {onSnapshot, collection, doc, setDoc} from "@firebase/firestore"
-import {useState, useEffect} from "react";
-import {getDatabase, ref, set} from "firebase/database";
+import {collection, doc, onSnapshot, setDoc} from "@firebase/firestore"
+import {useEffect, useState} from "react";
 
 import db from './firebase';
 
